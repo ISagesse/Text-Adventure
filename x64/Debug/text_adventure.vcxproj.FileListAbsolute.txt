@@ -1,1 +1,0 @@
-C:\Users\israe\Desktop\c++ game development\text_adventure\x64\Debug\text_adventure.exe
