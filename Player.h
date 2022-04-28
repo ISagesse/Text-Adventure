@@ -14,7 +14,7 @@ public:
 	}
 
 	// when call return the player name
-	string& get_name() {
+	std::string get_name() {
 		return player_name;
 	}
 };
