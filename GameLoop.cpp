@@ -11,9 +11,11 @@ namespace GameLoop
 		cout << "What is your name?" << endl << endl;
 
 		cout << "Player Name: ";
-		cin >> player.player_name;
+		string name;
+		cin >> name;
+		player.set_name(name);
 
-		cout << endl << "Hello " << player.player_name << endl;
+		cout << endl << "Hello " << player.get_name() << endl;
 	}
 
 	// this function ask and display all the available option the player can choose.
