@@ -1,6 +1,6 @@
 #pragma once
 
-enum class player_options
+enum class PlayerOptions
 {
 	Quit,
 	None

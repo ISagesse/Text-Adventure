@@ -1,16 +1,10 @@
 #include "Player.h"
-#include "GameLoop.h"
+#include "Game.h"
 
 int main() {
 	
-	Player player;
-	GameLoop::welcome_player(player);
-
-	bool isPlaying = true;
-	while (isPlaying)
-	{
-		isPlaying = GameLoop::run_game();
-	}
+	Game game;
+	game.run_game();
 
 	return 0;
 }

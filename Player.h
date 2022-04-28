@@ -8,11 +8,6 @@ private:
 	std::string player_name;
 
 public:
-	//creating the player constructo
-	Player(std::string name) {
-		player_name = name;
-	}
-
 	// this will create the player name
 	void set_name(std::string& name) {
 		player_name = name;
